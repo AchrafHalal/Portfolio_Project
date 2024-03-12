@@ -20,7 +20,7 @@ This is a website for a shelter that provides a safe haven for animals in need. 
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/AchrafHalal/Portfolio_Project.git`
-2. Navigate to the project directory: `cd your-repo`
+2. Navigate to the project directory: `cd Portfolio_Project`
 3. Install dependencies: `npm install`
 
 ## Usage
@@ -37,10 +37,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 3. Make your changes and commit them: `git commit -m 'Add your changes'`
 4. Push to the branch: `git push origin your-branch-name`
 5. Submit a pull request
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 

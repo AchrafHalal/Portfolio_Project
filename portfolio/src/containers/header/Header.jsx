@@ -17,11 +17,10 @@ function Header() {
           <input type='email' placeholder='Your Email Address' />
           <button type='button'>Get Started</button>
         </div>
-        <div className='ashl__header-image'>
+      </div>
+      <div className='ashl__header-image'>
           <img src={shelter} alt='shelter'/>
         </div>
-
-      </div>
     </div>
   )
 }

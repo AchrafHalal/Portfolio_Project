@@ -1,6 +1,7 @@
 import React from 'react'
-import {Footer, Blog, ImageSlider, Possibility, Header, Features} from './containers';
+import {Footer, Blog, Available, Services, Header, Features} from './containers';
 import {CTA, Navbar} from './components';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 export const App = () => {
@@ -11,9 +12,9 @@ export const App = () => {
             <Navbar />
             <Header />  
           </div>
-          <ImageSlider />
+          <Available />
+          <Services />
           <Features />
-          <Possibility />
           <CTA />
           <Blog />
           <Footer />

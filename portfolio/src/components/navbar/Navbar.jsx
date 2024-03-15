@@ -9,9 +9,10 @@ const Menu =()=>{
   return(
     <>
     <p><a href='#home'>Home</a></p>
-    <p><a href='#blog'>About us</a></p>
     <p><a href='#adopt'>Adopt</a></p>
+    <p><a href='#services'>Services</a></p>
     <p><a href='#donate'>Donate</a></p>
+    <p><a href='#blog'>About us</a></p>
   </>
   )
 }

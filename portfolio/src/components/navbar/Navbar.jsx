@@ -12,7 +12,7 @@ const Menu =()=>{
     <p><a href='#adopt'>Adopt</a></p>
     <p><a href='#services'>Services</a></p>
     <p><a href='#book'>Book</a></p>
-    <p><a href='#blog'>About us</a></p>
+    <p><a href='#about us'>About us</a></p>
   </>
   )
 }

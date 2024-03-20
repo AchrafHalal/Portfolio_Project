@@ -4,7 +4,7 @@ import './blog.css'
 
 function Blog() {
   return (
-    <section className="about-us">
+    <section className="about-us" id='about us'>
     <div className="about">
       <img src={paw} className="pic"/>
       <div className="text">

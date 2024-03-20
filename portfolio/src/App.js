@@ -1,6 +1,6 @@
 import React from 'react'
-import {Footer, Blog, Available, Services, Header, Features} from './containers';
-import {CTA, Navbar} from './components';
+import {Footer, Blog, Available, Services, Header} from './containers';
+import { Navbar} from './components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -14,8 +14,6 @@ export const App = () => {
           </div>
           <Available />
           <Services />
-          <Features />
-          <CTA />
           <Blog />
           <Footer />
         </div>

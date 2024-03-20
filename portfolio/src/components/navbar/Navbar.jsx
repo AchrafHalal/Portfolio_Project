@@ -11,7 +11,7 @@ const Menu =()=>{
     <p><a href='#home'>Home</a></p>
     <p><a href='#adopt'>Adopt</a></p>
     <p><a href='#services'>Services</a></p>
-    <p><a href='#donate'>Donate</a></p>
+    <p><a href='#book'>Book</a></p>
     <p><a href='#blog'>About us</a></p>
   </>
   )
@@ -22,7 +22,7 @@ function Navbar() {
   
 
   return (
-    <div className='ashl__navbar'>
+    <div className='ashl__navbar '>
       <div className='ashl__navbar-links'>
         <div className='ashl__navbar-links_logo' >
             <img src={logo} alt='logo'/>
@@ -31,10 +31,12 @@ function Navbar() {
          <Menu />
       </div>  
       </div>
+      {/*
       <div className='ashl__navbar-sign'>
         <p>Sign in</p>
         <button type='button'>Sign up</button>
       </div>
+      */ }
       <div className='ashl__navbar-menu'>
           {toggleMenu 
           ? <RiCloseLine color='#000' size={27} onClick={() => setToggleMenu(false)} />

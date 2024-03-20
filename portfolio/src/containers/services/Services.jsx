@@ -35,6 +35,15 @@ function Services() {
         }
     ]);
 
+    const [Services] = useState([
+        'Luxury Boarding',
+        'Professional Grooming',
+        'Premium Daycare',
+        'Exclusive Spa Treatments',
+        'Training Programs',
+        'Health Consultations'
+    ]);
+
     return (
         <div className='services' id='services'>
             <section>
@@ -53,6 +62,32 @@ function Services() {
                     </div>
                 </div>
             </section>
+            <div className="booking section__padding" id='book'>
+                <div className="form_Container">
+                    <form action="">
+                        <input type="text" placeholder='Your Name' name="" id="" />
+                        <input type="email" placeholder='Your Email' name="" id="" />
+                        <input type="date" placeholder='Reservation date' name="" id="" />
+                        <input type="time" placeholder='Reservation Time' name="" id="" />
+                        <select id="">
+                            <option value="" disabled selected hidden>Choose a service</option>
+                            {Services.map((service, index) => (
+                        <option key={index} value={service}>{service}</option>
+    ))}
+</select>                        <input type="submit" value="Book Now" />
+                    </form>
+                </div>
+                <div className="form_content">
+                    <h3 className='titre1'>Schedule Your Pet's Visit Today</h3>
+                    <h1><span className='p1'>Book</span> Your Pet</h1>
+                    <div className="par">
+                        <p>
+                        Experience hassle-free booking with our convenient online form. Simply fill out the required details, choose your preferred service, and select a suitable time slot. Our team will promptly confirm your appointment,
+                         ensuring that your pet receives the care they deserve without delay
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

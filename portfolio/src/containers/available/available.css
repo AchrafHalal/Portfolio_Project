@@ -152,7 +152,7 @@
 }
 
 @media screen and (min-width: 2000px){
-    .ashl__gallery-content{
+    .ashl__available-content{
         min-width: 100px;
         padding-right: 4rem;
     }
@@ -165,7 +165,7 @@
 }
 
 @media screen and (max-width: 1150px){
-    .ashl__gallery{
+    .ashl__available{
         flex-direction: column;
     }
 
@@ -177,18 +177,18 @@
 }
 
 @media screen and (max-width: 850px){
-    .ashl__gallery{
+    .ashl__available{
         padding: 4rem 0 4rem 4rem;
     }
     
 }
 
 @media screen and (max-width: 650px){
-    .ashl__gallery{
+    .ashl__available{
         padding: 4rem 0 4rem 4rem;
     }
 
-    .ashl__gallery-content{
+    .ashl__available-content{
         min-width: 100%;
     }
 

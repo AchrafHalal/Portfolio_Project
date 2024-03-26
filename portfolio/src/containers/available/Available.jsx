@@ -32,7 +32,7 @@ const Available = ()=> {
              our adoptable pets are ready to bring joy to your life.
              Find your perfect match and make a difference today
             </p>
-            <button type='button' className='btn'>Available</button>
+          <button type='button' className='btn'>Available</button>
         </div>
         <div className='ashl__gallery-images'>
             <div className='ashl__gallery-images_container' ref={scrollRef}>
